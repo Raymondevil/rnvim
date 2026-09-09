@@ -1,4 +1,4 @@
-local utils = require("utils")
+local utils = require("lua.util.utils")
 local fn = vim.fn
 
 -- cache for git states

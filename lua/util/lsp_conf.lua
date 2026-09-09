@@ -1,4 +1,4 @@
-local utils = require("utils")
+local utils = require("util.utils")
 
 vim.api.nvim_create_autocmd("LspAttach", {
   group = vim.api.nvim_create_augroup("lsp_buf_conf", { clear = true }),

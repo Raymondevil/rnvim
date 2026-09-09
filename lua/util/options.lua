@@ -1,4 +1,4 @@
-local utils = require("utils")
+local utils = require("util.utils")
 
 local fn = vim.fn
 local opt = vim.opt

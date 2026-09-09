@@ -1,4 +1,4 @@
-local utils = require("utils")
+local utils = require("util.utils")
 
 -- python3_host_prog is needed for python plugins, see also https://jdhao.github.io/2026/05/11/nvim_python_provider_setup/
 local config_path = vim.fn.stdpath("config")
