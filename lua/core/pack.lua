@@ -25,4 +25,5 @@ vim.pack.add({
 	"https://github.com/rafamadriz/friendly-snippets",
   "https://github.com/junegunn/fzf.vim",
     "https://github.com/ibhagwan/fzf-lua",
+    "https://github.com/pmizio/typescript-tools.nvim",
 })

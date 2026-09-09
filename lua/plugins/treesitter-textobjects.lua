@@ -1,5 +1,6 @@
 -- configuration
-require("nvim-treesitter-textobjects").setup {
+local textobject = require("nvim-treesitter-textobjects")
+textobject.setup({
   select = {
     -- Automatically jump forward to textobj, similar to targets.vim
     lookahead = true,
@@ -28,7 +29,7 @@ require("nvim-treesitter-textobjects").setup {
     -- and should return true of false
     include_surrounding_whitespace = false,
   },
-}
+})
 
 -- keymaps
 -- You can use the capture groups defined in `textobjects.scm`
